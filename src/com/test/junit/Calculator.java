@@ -1,7 +1,7 @@
 package com.test.junit;
 
 /**
- * ÊıÑ§¼ÆËã
+ * æ•°å­¦è®¡ç®—
  */
 public class Calculator
 {
@@ -24,7 +24,7 @@ public class Calculator
 	{
 		if(0 == b)
 		{
-			throw new Exception("³ıÊı²»ÄÜÎªÁã£¡");
+			throw new Exception("é™¤æ•°ä¸èƒ½ä¸ºé›¶ï¼");
 		}
 		
 		return a / b;

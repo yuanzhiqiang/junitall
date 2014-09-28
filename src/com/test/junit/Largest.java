@@ -6,7 +6,7 @@ public class Largest
 	{
 		if (null == array || 0 == array.length)
 		{
-			throw new Exception("Êı×é²»ÄÜÎª¿Õ£¡");
+			throw new Exception("æ•°ç»„ä¸èƒ½ä¸ºç©ºï¼");
 		}
 
 		int result = array[0];

@@ -16,7 +16,7 @@ public class MyStack
 	{
 		if (100 == nextIndex)
 		{
-			throw new Exception("数组越界异常!");
+			throw new Exception("鏁扮粍瓒婄晫寮傚父!");
 		}
 		elements[nextIndex++] = element;
 	}
@@ -25,7 +25,7 @@ public class MyStack
 	{
 		if (0 == nextIndex)
 		{
-			throw new Exception("数组越界异常!");
+			throw new Exception("鏁扮粍瓒婄晫寮傚父!");
 		}
 		return elements[--nextIndex];
 	}
@@ -34,7 +34,7 @@ public class MyStack
 	{
 		if (nextIndex - n < 0)
 		{
-			throw new Exception("数组越界异常!");
+			throw new Exception("鏁扮粍瓒婄晫寮傚父!");
 		}
 		nextIndex -= n;
 	}
@@ -43,7 +43,7 @@ public class MyStack
 	{
 		if (0 == nextIndex)
 		{
-			throw new Exception("数组越界异常!");
+			throw new Exception("鏁扮粍瓒婄晫寮傚父!");
 		}
 		return elements[nextIndex - 1];
 	}
