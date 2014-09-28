@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class CalculatorTest2
@@ -83,6 +84,7 @@ public class CalculatorTest2
 	}
 	
 	@Test(timeout = 100)
+	@Ignore
 	public void myDivide3()
 	{
 		try

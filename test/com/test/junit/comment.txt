@@ -1,0 +1,16 @@
+参数化测试要点：
+
+1. 测试类必须由Parameterized测试运行器修饰
+
+2. 准备数据。数据的准备需要在一个方法中进行，该方法需要满足一定的要求：
+
+ 1）该方法必须由Parameters注解修饰
+ 2）该方法必须为public static的
+ 3）该方法必须返回Collection类型
+ 4）该方法的名字不做要求
+ 5）该方法没有参数
+ 
+ 
+ int.class == Integer.TYPE int  获取int对应的class对象
+ 
+ Integer.class 获得Integer对应的class对象
