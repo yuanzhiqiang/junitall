@@ -93,7 +93,7 @@ public class MyStackTest extends TestCase
 
 		Assert.assertNotNull(tx);
 		Assert.assertEquals(Exception.class, tx.getClass());
-		Assert.assertEquals("数组越界异常!", tx.getMessage());
+		Assert.assertEquals("鏁扮粍瓒婄晫寮傚父!", tx.getMessage());
 	}
 
 	public void testPop()
@@ -112,7 +112,7 @@ public class MyStackTest extends TestCase
 		}
 		Assert.assertNotNull(tx);
 		Assert.assertEquals(Exception.class, tx.getClass());
-		Assert.assertEquals("数组越界异常!", tx.getMessage());
+		Assert.assertEquals("鏁扮粍瓒婄晫寮傚父!", tx.getMessage());
 	}
 
 	public void testTop()
@@ -148,7 +148,7 @@ public class MyStackTest extends TestCase
 		}
 		Assert.assertNotNull(tx);
 		Assert.assertEquals(Exception.class, tx.getClass());
-		Assert.assertEquals("数组越界异常!", tx.getMessage());
+		Assert.assertEquals("鏁扮粍瓒婄晫寮傚父!", tx.getMessage());
 	}
 
 	public void testDelete()
@@ -192,7 +192,7 @@ public class MyStackTest extends TestCase
 
 		Assert.assertNotNull(tx);
 		Assert.assertEquals(Exception.class, tx.getClass());
-		Assert.assertEquals("数组越界异常!", tx.getMessage());
+		Assert.assertEquals("鏁扮粍瓒婄晫寮傚父!", tx.getMessage());
 	}
 
 }

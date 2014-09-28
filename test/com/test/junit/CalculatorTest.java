@@ -6,20 +6,20 @@ import junit.framework.Assert;
 import junit.framework.TestCase;
 
 /**
- * ÔÚjunit3.8ÖĞ²âÊÔÀà±ØĞëÒª¼Ì³ĞTestCase¸¸Àà
+ * åœ¨junit3.8ä¸­æµ‹è¯•ç±»å¿…é¡»è¦ç»§æ‰¿TestCaseçˆ¶ç±»
  * 
  * keep the bar green to keep the code clean
  * 
- * µ¥Ôª²âÊÔ²»ÊÇÖ¤Ã÷ÄúÊÇ¶ÔµÄ£¬¶øÊÇÖ¤Ã÷ÄúÃ»ÓĞ´íÎó
+ * å•å…ƒæµ‹è¯•ä¸æ˜¯è¯æ˜æ‚¨æ˜¯å¯¹çš„ï¼Œè€Œæ˜¯è¯æ˜æ‚¨æ²¡æœ‰é”™è¯¯
  */
 public class CalculatorTest extends TestCase
 {
 	/**
-	 * ÔÚjunit3.8ÖĞ£¬²âÊÔ·½·¨Âú×ãÈçÏÂÔ­Ôò
-	 * 1£©publicµÄ
-	 * 2£©voidµÄ
-	 * 3£©ÎŞ·½·¨²ÎÊı
-	 * 4£©·½·¨Ãû³Æ±ØĞëÒÔtest¿ªÍ·
+	 * åœ¨junit3.8ä¸­ï¼Œæµ‹è¯•æ–¹æ³•æ»¡è¶³å¦‚ä¸‹åŸåˆ™
+	 * 1ï¼‰publicçš„
+	 * 2ï¼‰voidçš„
+	 * 3ï¼‰æ— æ–¹æ³•å‚æ•°
+	 * 4ï¼‰æ–¹æ³•åç§°å¿…é¡»ä»¥testå¼€å¤´
 	 * 
 	 * Dont't Repeat Yourself
 	 */
@@ -40,7 +40,7 @@ public class CalculatorTest extends TestCase
 	{
 		int result = cal.add(1,2);
 		
-		//¶ÏÑÔ: assert
+		//æ–­è¨€: assert
 		
 		Assert.assertEquals(3,result);
 	}
@@ -49,7 +49,7 @@ public class CalculatorTest extends TestCase
 	{
 		int result = cal.minus(1,2);
 		
-		//¶ÏÑÔ
+		//æ–­è¨€
 		
 		Assert.assertEquals(-1,result);
 	}
@@ -58,7 +58,7 @@ public class CalculatorTest extends TestCase
 	{
 		int result = cal.multiply(2,3);
 		
-		//¶ÏÑÔ
+		//æ–­è¨€
 		
 		Assert.assertEquals(6,result);
 	}
@@ -78,7 +78,7 @@ public class CalculatorTest extends TestCase
 			Assert.fail();
 		}
 		
-		//¶ÏÑÔ
+		//æ–­è¨€
 		
 		Assert.assertEquals(1,result);
 	}
@@ -102,7 +102,7 @@ public class CalculatorTest extends TestCase
 		
 		Assert.assertEquals(Exception.class,tx.getClass());
 		
-		Assert.assertEquals("³ıÊı²»ÄÜÎªÁã£¡",tx.getMessage());
+		Assert.assertEquals("é™¤æ•°ä¸èƒ½ä¸ºé›¶ï¼",tx.getMessage());
 	}
 	
 	

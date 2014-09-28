@@ -56,7 +56,7 @@ public class LargestTest extends TestCase
 
 		Assert.assertEquals(Exception.class, tx.getClass());
 
-		Assert.assertEquals("Êı×é²»ÄÜÎª¿Õ£¡", tx.getMessage());
+		Assert.assertEquals("æ•°ç»„ä¸èƒ½ä¸ºç©ºï¼", tx.getMessage());
 	}
 	
 	public void testGetLargest3()
@@ -82,7 +82,7 @@ public class LargestTest extends TestCase
 		
 		Assert.assertEquals(Exception.class,tx.getClass());
 		
-		Assert.assertEquals("Êı×é²»ÄÜÎª¿Õ£¡", tx.getMessage());
+		Assert.assertEquals("æ•°ç»„ä¸èƒ½ä¸ºç©ºï¼", tx.getMessage());
 	}
 	
 
